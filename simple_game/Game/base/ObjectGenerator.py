@@ -4,8 +4,8 @@ import time
 import cv2
 import numpy as np
 
-from simple_game.Game.base.Coordinate import Coordinate
-from simple_game.Game.base.GameObject import GameObject
+from fun_game.simple_game.Game.base.Coordinate import Coordinate
+from fun_game.simple_game.Game.base.GameObject import GameObject
 
 
 class Player(GameObject):

@@ -5,10 +5,10 @@ from random import randint
 
 import cv2
 
-from simple_game.Game.base.Coordinate import Coordinate
-from simple_game.Game.base.GameObject import GameObject
-from simple_game.Game.base.ObjectGenerator import Player
-from simple_game.Renderer.main import Engine
+from fun_game.simple_game.Game.base.Coordinate import Coordinate
+from fun_game.simple_game.Game.base.GameObject import GameObject
+from fun_game.simple_game.Game.base.ObjectGenerator import Player
+from fun_game.simple_game.Renderer.main import Engine
 
 __author__ = "milad"
 

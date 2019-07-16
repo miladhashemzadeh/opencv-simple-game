@@ -5,10 +5,10 @@ from random import randint
 
 import cv2
 
-from simple_game.Game.base.Coordinate import Coordinate
-from simple_game.Game.base.GameObject import GameObject
-from simple_game.Game.base.ObjectGenerator import Player
-from simple_game.Renderer.main import Engine
+from fun_game.simple_game.Game.base.Coordinate import Coordinate
+from fun_game.simple_game.Game.base.GameObject import GameObject
+from fun_game.simple_game.Game.base.ObjectGenerator import Player
+from fun_game.simple_game.Renderer.main import Engine
 
 __author__ = "milad"
 
@@ -25,7 +25,7 @@ class Game(Engine):
         obsSize = 40
         self.currentMode = mode
         self.mode = {"easy": 5, "medium": 4, "hard": 3}
-        self.speed = int(12/self.mode.get(self.currentMode))
+        self.speed = int(12 / self.mode.get(self.currentMode))
         self.obstaclesList = []
         self.notEnded = True
         super().__init__(width, height, fps=fps, game=self)
